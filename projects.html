@@ -6,7 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nathan's Personal Website</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,16 +15,56 @@
   <title>Projects</title>
 </head>
 <body>
-  <div class="top_container">
-    <img class="mountain" src="/images/mountain.png" alt="mountain-img">
-    <img class="camper" src="https://cdn-icons-png.flaticon.com/512/6643/6643430.png">
-    <div class="title-block">
-      <img class="right-cloud" src="images/cloud.png" alt=cloud-img">
-      <h1 class="title1">Hi I'm Nathan</h1>
-      <h2 class="title2">I'm a Mechanical Engineer &</h2>
-      <h2 class="title2">Software Engineer in Training</h2>
-      <img class="left-cloud" src="images/cloud.png" alt=cloud-img">
-    </div>
+  <div class="project_header">
+    <img class="right-cloud1" src="./images/cloud.png" alt=cloud-img">
+    <h1 class="project_title">Projects</h1>
+    <img class="left-cloud1" src="./images/cloud.png" alt=cloud-img">
+  </div>
+  <div class="project1" id="woodstove_thermostat">
+    <h2>Woodstove Thermostat</h2>
+    <p>I designed the mechanism, control software, and App to regulate a wood-burning stove in my home.</p>
+    <a class="hyperlink"
+       href="https://www.instructables.com/How-to-Make-an-Automatic-Wood-Stove-Thermostat/">
+      Link to Build Details, Designs, and Code on Instructables
+    </a>
+    <iframe
+      class="woodstove_video"
+      src="https://www.youtube.com/embed/dc8mry1K-9k"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+  </div>
+  <hr>
+  <div class="project1" id="onewheel">
+    <h2>DIY Onewheel</h2>
+    <iframe
+      src="https://myhub.autodesk360.com/ue297f328/shares/public/SH56a43QTfd62c1cd968f51794a248dcc5e9?mode=embed"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      frameborder="0"
+      class="fusion360"
+    >
+    </iframe>
+  </div>
+  <hr>
+  <div class="project1">
+    Project
+  </div>
+  <div class="menu">
+    <div class="menu_item"><a class="menu_link hyperlink" href="./index.html">HOME</a></div>
+    <div class="menu_item"><a class="menu_link hyperlink" href="#woodstove_thermostat">Woodstove Thermostat</a></div>
+    <div class="menu_item"><a class="menu_link hyperlink" href="#onewheel">DIY OneWheel</a></div>
+    <div class="menu_item"><a class="menu_link hyperlink" href="./documents/Resume_9-5-2022.pdf">Résumé</a></div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/nathan-spotts-173055165/">LinkedIn</a>
+    <a class="footer-link" href="https://www.nescustomdesign.com/">Website</a>
+    <a class="footer-link" href="./documents/Resume_9-5-2022.pdf">Download Résumé</a>
+    <p class="copyright">© 2022 Nathan Spotts.</p>
   </div>
 </body>
 </html>
