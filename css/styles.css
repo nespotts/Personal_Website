@@ -286,12 +286,11 @@ hr {
 .woodstove_video {
     display: block;
     position: relative;
-    width: 700px;
+    #width: 700px;
     margin: 0px auto;
-    height: 394px;
+    #height: 394px;
     padding: 50px 0px;
 }
-
 #onewheel {
     display: block;
     position: relative;
