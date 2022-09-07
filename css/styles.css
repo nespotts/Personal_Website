@@ -24,6 +24,11 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
+h4 {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
 p {
     font-size: .8rem;
     padding-top: 0px;
@@ -40,8 +45,7 @@ hr {
     position: relative;
     border: none;
     border-width: 0px;
-    padding: 275px;
-    height: 100%;
+    height: 500px;
 }
 .title-block  {
     position: absolute;
@@ -53,12 +57,12 @@ hr {
 }
 .title1 {
     position: relative;
-    top: 15%;
+    bottom: 10%;
     color: #66BFBF;
 }
 .title2 {
     position: relative;
-    top: 5%;
+    bottom: 30%;
     margin: 1px;
     font-size: 1.3rem;
     color: #66BFBF;
@@ -93,7 +97,7 @@ hr {
 .intro {
     width: 50%;
     margin: auto;
-    line-height: 1.5;
+    line-height: 1.75rem;
 }
 .profile {
     padding: 40px 40px 0px;
@@ -136,9 +140,40 @@ hr {
     margin-right: 3%;
     background-color: black;
 }
+.experience {
+    padding: 0px;
+}
+.exp-img1 {
+    width: 250px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.exp-img2 {
+    width: 75px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.exp-img3 {
+    width: 200px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.job_title {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
 .skill-row {
     display: block;
-    width: 50%;
+    position: relative;
+    width: 700px;
     margin: 70px auto;
     text-align: left;
     font-size: 1.0rem;
@@ -159,6 +194,7 @@ hr {
 }
 .hyperlink {
     color: #11999E;
+    text-decoration: none;
 }
 .hyperlink:hover {
     font-weight: 900;
@@ -237,7 +273,6 @@ hr {
     font-size: 1.1rem;
 }
 .menu_link{
-    color: #11999E;
     text-decoration: none;
 }
 
@@ -256,7 +291,7 @@ hr {
 }
 .project_title {
     position: relative;
-    bottom: 20%;
+    bottom: 30%;
     color: #66BFBF;
 }
 .left-cloud1 {
@@ -277,27 +312,63 @@ hr {
     margin: 0% auto;
     top: 0px;
 }
+.project_text {
+    line-height: 1.5rem;
+}
 .fusion360 {
     position: relative;
     margin: 20px auto 20px;
     width: 100%;
     height: 500px;
 }
+.fusion3602 {
+    position: relative;
+    margin: 20px auto 20px;
+    width: 75%;
+    height: 400px;
+}
 .woodstove_video {
     display: block;
     position: relative;
-    #width: 700px;
+    width: 700px;
     margin: 0px auto;
-    #height: 394px;
+    height: 394px;
     padding: 50px 0px;
 }
-#onewheel {
-    display: block;
-    position: relative;
-    padding-top: 100px;
+.italics {
+
 }
+.pcb {
+    width: 250px;
+    padding: 10px;
+}
+.pcb1 {
+    width: 200px;
+    padding: 10px;
+}
+.schematic {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
 #woodstove_thermostat {
     position: relative;
     padding-top: 100px;
+}
+#onewheel {
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+}
+#robot {
+    position: relative;
+    padding-top: 100px;
+    top: -100px;
+}
+#solar {
+    position: relative;
+    padding-top: 100px;
+    top: -100px;
 }
 
